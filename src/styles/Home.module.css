@@ -1,0 +1,12 @@
+.footer {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  background-color: aquamarine;
+}
+
+.footer a {
+  font-family: sans-serif;
+  text-decoration: none;
+}
