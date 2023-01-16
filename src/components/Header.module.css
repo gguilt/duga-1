@@ -10,14 +10,18 @@
   .logo {
     text-transform: uppercase;
     font-family: sans-serif;
-    font-weight: 100;
+    font-weight: 800;
     font-style: oblique;
     margin: 1rem 0;
     transition: all 0.5s;
+    color: white;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 1px white;
+    font-size: 2rem;
   }
 
   .logo:hover {
-    font-weight: 800;
+    -webkit-text-fill-color: white;
   }
   
   .header {
